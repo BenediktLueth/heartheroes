@@ -9,8 +9,13 @@ heart_disease = pd.read_csv("heart_2020_cleaned.csv")
 
 # Preprocessing of numerical features
 
-# Print summary statistics for numerical features
+# Print summary statistics of numerical features
+print('Statistic of numerical features:')
 print(heart_disease.describe())
+
+# Print correlation matrix of numerical features
+print('\nCorrelation matrix of numerical features:')
+print(heart_disease.corr())
 
 # List all numerical features
 numerical_features = ["BMI", "PhysicalHealth", "MentalHealth", "SleepTime"]
@@ -32,8 +37,14 @@ for current_feature in numerical_features:
         ax.hist(group[current_feature], label=has_heart_disease)
         ax.legend()
     figure_index += 1
-
-# Format figures and display them
+# Format and display figure
 plt.tight_layout()
 plt.suptitle('')
 plt.show()
+
+# TODO @BL plot scatters of numerical features
+# Plot scatters of numerical features
+
+# TODO @FD implement normalization of numerical features
+# Normalization of numerical features
+
