@@ -1,23 +1,11 @@
 # Import libraries
 import pandas as pd
 import matplotlib.pyplot as plt
-from sklearn import preprocessing
 
 # Preprocessing
-# TODO BL: put all plots in one figure (?)
 
 # Import data
 heart_disease = pd.read_csv("heart_2020_cleaned.csv")
-
-# Separate target variable from features
-heart_disease_target = heart_disease['HeartDisease']
-heart_disease_data = heart_disease.drop('HeartDisease', axis=1)
-
-# Plot the class distribution
-class_distribution = pd.Series(heart_disease_target).value_counts()
-plt.bar(class_distribution.index, class_distribution)
-plt.xlabel("Heart disease")
-plt.ylabel("Frequency")
 
 # Preprocessing of numerical features
 
@@ -27,8 +15,9 @@ print(heart_disease.describe())
 # List all numerical features
 numerical_features = ["BMI", "PhysicalHealth", "MentalHealth", "SleepTime"]
 
-# Plot distribution for numerical features, grouped by class
-figure = plt.figure(figsize=(15, 5))
+# Plot distribution of numerical features, grouped by class
+figure = plt.figure(figsize=(15, 8))
+figure.canvas.set_window_title('Distribution of numerical features')
 # Boxplot
 figure_index = 1
 for current_feature in numerical_features:
