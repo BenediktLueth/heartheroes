@@ -1,6 +1,7 @@
 # Import libraries
 import pandas as pd
 import matplotlib.pyplot as plt
+from sklearn import preprocessing
 from numpy import finfo
 
 # Preprocessing
@@ -13,6 +14,19 @@ heart_disease = pd.read_csv("heart_2020_cleaned.csv")
 # Print summary statistics of numerical features
 print('Statistic of numerical features:')
 print(heart_disease.describe())
+print()
+
+# TODO @FD implement normalization of numerical features
+# Normalization of numerical features
+scaler = preprocessing.MinMaxScaler()
+
+numerical_features_preprocessed = heart_disease.copy()
+
+numerical_features_preprocessed[["BMI", "PhysicalHealth", "MentalHealth", "SleepTime"]] = \
+  scaler.fit_transform(numerical_features_preprocessed[["BMI", "PhysicalHealth", "MentalHealth", "SleepTime"]])
+
+print(numerical_features_preprocessed.describe())
+
 
 # Print correlation matrix of numerical features
 print('\nCorrelation matrix of numerical features:')
@@ -57,6 +71,4 @@ plt.tight_layout()
 
 plt.show()
 
-# TODO @FD implement normalization of numerical features
-# Normalization of numerical features
 
