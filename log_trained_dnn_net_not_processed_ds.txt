@@ -1,0 +1,49 @@
+2022-12-04 01:23:05.716123: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1616] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 4617 MB memory:  -> device: 0, name: NVIDIA GeForce GTX 1060 6GB, pci bus id: 0000:2d:00.0, compute capability: 6.1
+[CV 1/2] END activation=relu, batch_size=512, class_weight={0: 1, 1: 1}, dropout_rate=0.4, epochs=300, hidden_layer_sizes=(20, 20), loss=binary_crossentropy, optimizer=SGD;, score=(train=0.053, test=0.055) total time= 3.7min
+[CV 2/2] END activation=relu, batch_size=512, class_weight={0: 1, 1: 1}, dropout_rate=0.4, epochs=300, hidden_layer_sizes=(20, 20), loss=binary_crossentropy, optimizer=SGD;, score=(train=0.054, test=0.056) total time= 3.7min
+[CV 1/2] END activation=relu, batch_size=512, class_weight={0: 1, 1: 1}, dropout_rate=0.4, epochs=300, hidden_layer_sizes=(20, 20), loss=binary_crossentropy, optimizer=adam;, score=(train=0.070, test=0.062) total time= 4.1min
+[CV 2/2] END activation=relu, batch_size=512, class_weight={0: 1, 1: 1}, dropout_rate=0.4, epochs=300, hidden_layer_sizes=(20, 20), loss=binary_crossentropy, optimizer=adam;, score=(train=0.081, test=0.077) total time= 4.1min
+[CV 1/2] END activation=relu, batch_size=512, class_weight={0: 1, 1: 1}, dropout_rate=0.4, epochs=300, hidden_layer_sizes=(60, 30), loss=binary_crossentropy, optimizer=SGD;, score=(train=0.059, test=0.057) total time= 3.8min
+[CV 2/2] END activation=relu, batch_size=512, class_weight={0: 1, 1: 1}, dropout_rate=0.4, epochs=300, hidden_layer_sizes=(60, 30), loss=binary_crossentropy, optimizer=SGD;, score=(train=0.073, test=0.073) total time= 3.8min
+[CV 1/2] END activation=relu, batch_size=512, class_weight={0: 1, 1: 1}, dropout_rate=0.4, epochs=300, hidden_layer_sizes=(60, 30), loss=binary_crossentropy, optimizer=adam;, score=(train=0.135, test=0.089) total time= 4.1min
+[CV 2/2] END activation=relu, batch_size=512, class_weight={0: 1, 1: 1}, dropout_rate=0.4, epochs=300, hidden_layer_sizes=(60, 30), loss=binary_crossentropy, optimizer=adam;, score=(train=0.143, test=0.097) total time= 4.1min
+[CV 1/2] END activation=relu, batch_size=512, class_weight={0: 1, 1: 1}, dropout_rate=0.4, epochs=300, hidden_layer_sizes=(40, 20, 10), loss=binary_crossentropy, optimizer=SGD;, score=(train=0.024, test=0.026) total time= 4.2min
+[CV 2/2] END activation=relu, batch_size=512, class_weight={0: 1, 1: 1}, dropout_rate=0.4, epochs=300, hidden_layer_sizes=(40, 20, 10), loss=binary_crossentropy, optimizer=SGD;, score=(train=0.048, test=0.047) total time= 4.1min
+[CV 1/2] END activation=relu, batch_size=512, class_weight={0: 1, 1: 1}, dropout_rate=0.4, epochs=300, hidden_layer_sizes=(40, 20, 10), loss=binary_crossentropy, optimizer=adam;, score=(train=0.121, test=0.085) total time= 4.4min
+[CV 2/2] END activation=relu, batch_size=512, class_weight={0: 1, 1: 1}, dropout_rate=0.4, epochs=300, hidden_layer_sizes=(40, 20, 10), loss=binary_crossentropy, optimizer=adam;, score=(train=0.094, test=0.060) total time= 4.5min
+[CV 1/2] END activation=relu, batch_size=512, class_weight={0: 1, 1: 4}, dropout_rate=0.4, epochs=300, hidden_layer_sizes=(20, 20), loss=binary_crossentropy, optimizer=SGD;, score=(train=0.450, test=0.446) total time= 3.8min
+[CV 2/2] END activation=relu, batch_size=512, class_weight={0: 1, 1: 4}, dropout_rate=0.4, epochs=300, hidden_layer_sizes=(20, 20), loss=binary_crossentropy, optimizer=SGD;, score=(train=0.451, test=0.452) total time= 3.8min
+[CV 1/2] END activation=relu, batch_size=512, class_weight={0: 1, 1: 4}, dropout_rate=0.4, epochs=300, hidden_layer_sizes=(20, 20), loss=binary_crossentropy, optimizer=adam;, score=(train=0.467, test=0.453) total time= 4.0min
+[CV 2/2] END activation=relu, batch_size=512, class_weight={0: 1, 1: 4}, dropout_rate=0.4, epochs=300, hidden_layer_sizes=(20, 20), loss=binary_crossentropy, optimizer=adam;, score=(train=0.470, test=0.452) total time= 4.0min
+[CV 1/2] END activation=relu, batch_size=512, class_weight={0: 1, 1: 4}, dropout_rate=0.4, epochs=300, hidden_layer_sizes=(60, 30), loss=binary_crossentropy, optimizer=SGD;, score=(train=0.467, test=0.457) total time= 3.8min
+[CV 2/2] END activation=relu, batch_size=512, class_weight={0: 1, 1: 4}, dropout_rate=0.4, epochs=300, hidden_layer_sizes=(60, 30), loss=binary_crossentropy, optimizer=SGD;, score=(train=0.455, test=0.452) total time= 3.8min
+[CV 1/2] END activation=relu, batch_size=512, class_weight={0: 1, 1: 4}, dropout_rate=0.4, epochs=300, hidden_layer_sizes=(60, 30), loss=binary_crossentropy, optimizer=adam;, score=(train=0.460, test=0.426) total time= 3.9min
+[CV 2/2] END activation=relu, batch_size=512, class_weight={0: 1, 1: 4}, dropout_rate=0.4, epochs=300, hidden_layer_sizes=(60, 30), loss=binary_crossentropy, optimizer=adam;, score=(train=0.488, test=0.441) total time= 4.0min
+[CV 1/2] END activation=relu, batch_size=512, class_weight={0: 1, 1: 4}, dropout_rate=0.4, epochs=300, hidden_layer_sizes=(40, 20, 10), loss=binary_crossentropy, optimizer=SGD;, score=(train=0.443, test=0.439) total time= 4.0min
+[CV 2/2] END activation=relu, batch_size=512, class_weight={0: 1, 1: 4}, dropout_rate=0.4, epochs=300, hidden_layer_sizes=(40, 20, 10), loss=binary_crossentropy, optimizer=SGD;, score=(train=0.439, test=0.431) total time= 4.1min
+[CV 1/2] END activation=relu, batch_size=512, class_weight={0: 1, 1: 4}, dropout_rate=0.4, epochs=300, hidden_layer_sizes=(40, 20, 10), loss=binary_crossentropy, optimizer=adam;, score=(train=0.481, test=0.432) total time= 4.3min
+[CV 2/2] END activation=relu, batch_size=512, class_weight={0: 1, 1: 4}, dropout_rate=0.4, epochs=300, hidden_layer_sizes=(40, 20, 10), loss=binary_crossentropy, optimizer=adam;, score=(train=0.457, test=0.408) total time= 4.2min
+[CV 1/2] END activation=relu, batch_size=512, class_weight={0: 0.5468029990852277, 1: 5.841538040003653}, dropout_rate=0.4, epochs=300, hidden_layer_sizes=(20, 20), loss=binary_crossentropy, optimizer=SGD;, score=(train=0.522, test=0.520) total time= 3.8min
+[CV 2/2] END activation=relu, batch_size=512, class_weight={0: 0.5468029990852277, 1: 5.841538040003653}, dropout_rate=0.4, epochs=300, hidden_layer_sizes=(20, 20), loss=binary_crossentropy, optimizer=SGD;, score=(train=0.525, test=0.524) total time= 3.7min
+[CV 1/2] END activation=relu, batch_size=512, class_weight={0: 0.5468029990852277, 1: 5.841538040003653}, dropout_rate=0.4, epochs=300, hidden_layer_sizes=(20, 20), loss=binary_crossentropy, optimizer=adam;, score=(train=0.532, test=0.522) total time= 3.9min
+[CV 2/2] END activation=relu, batch_size=512, class_weight={0: 0.5468029990852277, 1: 5.841538040003653}, dropout_rate=0.4, epochs=300, hidden_layer_sizes=(20, 20), loss=binary_crossentropy, optimizer=adam;, score=(train=0.528, test=0.520) total time= 4.0min
+[CV 1/2] END activation=relu, batch_size=512, class_weight={0: 0.5468029990852277, 1: 5.841538040003653}, dropout_rate=0.4, epochs=300, hidden_layer_sizes=(60, 30), loss=binary_crossentropy, optimizer=SGD;, score=(train=0.528, test=0.524) total time= 3.8min
+[CV 2/2] END activation=relu, batch_size=512, class_weight={0: 0.5468029990852277, 1: 5.841538040003653}, dropout_rate=0.4, epochs=300, hidden_layer_sizes=(60, 30), loss=binary_crossentropy, optimizer=SGD;, score=(train=0.524, test=0.522) total time= 3.8min
+[CV 1/2] END activation=relu, batch_size=512, class_weight={0: 0.5468029990852277, 1: 5.841538040003653}, dropout_rate=0.4, epochs=300, hidden_layer_sizes=(60, 30), loss=binary_crossentropy, optimizer=adam;, score=(train=0.543, test=0.517) total time= 4.0min
+[CV 2/2] END activation=relu, batch_size=512, class_weight={0: 0.5468029990852277, 1: 5.841538040003653}, dropout_rate=0.4, epochs=300, hidden_layer_sizes=(60, 30), loss=binary_crossentropy, optimizer=adam;, score=(train=0.542, test=0.516) total time= 4.0min
+[CV 1/2] END activation=relu, batch_size=512, class_weight={0: 0.5468029990852277, 1: 5.841538040003653}, dropout_rate=0.4, epochs=300, hidden_layer_sizes=(40, 20, 10), loss=binary_crossentropy, optimizer=SGD;, score=(train=0.525, test=0.521) total time= 4.0min
+[CV 2/2] END activation=relu, batch_size=512, class_weight={0: 0.5468029990852277, 1: 5.841538040003653}, dropout_rate=0.4, epochs=300, hidden_layer_sizes=(40, 20, 10), loss=binary_crossentropy, optimizer=SGD;, score=(train=0.520, test=0.517) total time= 4.1min
+[CV 1/2] END activation=relu, batch_size=512, class_weight={0: 0.5468029990852277, 1: 5.841538040003653}, dropout_rate=0.4, epochs=300, hidden_layer_sizes=(40, 20, 10), loss=binary_crossentropy, optimizer=adam;, score=(train=0.533, test=0.504) total time= 4.3min
+[CV 2/2] END activation=relu, batch_size=512, class_weight={0: 0.5468029990852277, 1: 5.841538040003653}, dropout_rate=0.4, epochs=300, hidden_layer_sizes=(40, 20, 10), loss=binary_crossentropy, optimizer=adam;, score=(train=0.548, test=0.514) total time= 4.2min
+Estimator                  Accuracy         Recall      Precision       F1 score       F2 score 
+
+dnn_estimator                0.7155         0.8246         0.2075         0.3316         0.5171
+Best parameters for dnn_estimator:
+activation: relu
+batch_size: 512
+class_weight: {0: 0.5468029990852277, 1: 5.841538040003653}
+dropout_rate: 0.4
+epochs: 300
+hidden_layer_sizes: (60, 30)
+loss: binary_crossentropy
+optimizer: SGD
